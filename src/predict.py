@@ -8,6 +8,7 @@ from pathlib import Path
 import numpy as np
 from joblib import load
 from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
 
 
 def main():
@@ -79,7 +80,5 @@ def main():
 
 
 if __name__ == "__main__":
-    from sklearn.model_selection import train_test_split
-
     main()
 
